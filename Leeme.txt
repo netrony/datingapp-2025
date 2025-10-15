@@ -2,3 +2,6 @@ https://www.youtube.com/watch?v=-5WLKu_J_AE&ab_channel=HiteshChoudhary
 
 bob@test.com
 password
+
+lisa@test.com
+Pa$$w0rd
