@@ -12,7 +12,7 @@ export class ToastService {
     if (!document.getElementById('toast-container')) {
       const container = document.createElement('div');
       container.id = 'toast-container';
-      container.className = 'toast toast-bottom toast-end';
+      container.className = 'toast toast-bottom toast-end z-50';
       container.style.position = 'fixed';
       container.style.bottom = '20px';
       container.style.right = '20px';
@@ -54,6 +54,6 @@ export class ToastService {
   warning(message: string, duration?: number) {
     this.createToastElement(message, 'alert-warning', duration);
   }
-  
+
 
 }
